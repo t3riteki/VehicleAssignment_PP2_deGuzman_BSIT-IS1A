@@ -102,10 +102,12 @@ public class VehicleMenu {
         switch (choice) {
             case 1:
                 vehicles.sort(new AscendingComparator());
+                System.out.println("List of vehicle details sorted by age (ascending):");
                 displayList();
                 break;
             case 2:
                 vehicles.sort(new DescendingComparator());
+                System.out.println("List of vehicle details sorted by age (descending):");
                 displayList();
                 break;
             case 3:
